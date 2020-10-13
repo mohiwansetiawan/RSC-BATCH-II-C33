@@ -54,3 +54,16 @@
     text-align: center;
   }
 }
+
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+  
+  .top-wrapper {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+  animation-duration: 1.7s;
+}
+
+}
