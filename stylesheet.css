@@ -41,8 +41,6 @@ a {
   background-size: cover;
   color: red;
   text-align: center;
-  animation-name: example;
-  animation-duration: 4s;
 }
 
 .top-wrapper h1 {
@@ -50,8 +48,6 @@ a {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  animation-name: example;
-  animation-duration: 4s;
 }
 
 .top-wrapper p {
@@ -101,6 +97,8 @@ header {
   position :fixed;
   top: 0;
   z-index: 10;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 .logo {
