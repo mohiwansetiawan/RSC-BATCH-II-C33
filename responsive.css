@@ -1,4 +1,4 @@
-/* Untuk Tablet */
+/* Gae Tablet */
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
     font-size: 32px;
@@ -14,7 +14,7 @@
   }
 }
 
-/* Untuk Smartphone */
+/* Gae HP */
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
